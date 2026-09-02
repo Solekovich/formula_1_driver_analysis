@@ -1,0 +1,27 @@
+# Virtual Environments (ALWAYS IGNORE)
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (API keys, passwords)
+.env
+.env.local
+
+# IDE & Code Editor configuration
+.vscode/
+.idea/
+
+# OS-generated metadata
+.DS_Store
+Thumbs.db
+
+# Output / Build directories
+dist/
+build/
+*.egg-info/
